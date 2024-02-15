@@ -1,2 +1,6 @@
-# test
-print('Update your program to print something longer. Commit and push again.\n See "Multiple Print Lines".')
+print("Welcome to the Virtual Lab!")
+print("Let's print a tree using ASCII art:")
+print("\n\t  ^  ")
+print("\t / \\ ")
+print("\t/___\\")
+print("\nGreat job! You've successfully printed a tree in the virtual lab.")
