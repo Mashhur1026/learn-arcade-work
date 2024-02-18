@@ -22,6 +22,9 @@ arcade.draw_rectangle_filled(550, 480, 5, 5, arcade.color.WHITE)
 # Draw the moon
 arcade.draw_circle_filled(700, 500, 80, (255, 255, 224))  # RGB for Pale Yellow
 
+# Draw the sun
+arcade.draw_circle_filled(100, 370, 150, arcade.color.YELLOW)
+
 # Draw the mountains
 arcade.draw_triangle_filled(-6000, 100, 800, 400, 900, 0, arcade.color.DARK_GREEN)
 
@@ -38,8 +41,20 @@ arcade.draw_rectangle_filled(700, 105, 15, 70, (0, 0, 0))
 arcade.draw_rectangle_filled(720, 125, 40, 7, (0, 0, 0))
 arcade.draw_rectangle_filled(680, 125, 40, 7, (0, 0, 0))
 
-# Draw the sun
-arcade.draw_arc_filled(100, 370, 150, 150, arcade.color.YELLOW, 0, 180)
+# Cow
+arcade.draw_rectangle_filled(450, 105, 120, 50, (0, 0, 0))
+arcade.draw_rectangle_filled(520, 105, 40, 30, (0, 0, 0))
+arcade.draw_rectangle_filled(520, 125, 5, 10, (0, 0, 0))
+arcade.draw_rectangle_filled(530, 125, 5, 10, (0, 0, 0))
+arcade.draw_rectangle_filled(525, 105, 5, 5, arcade.color.WHITE)
+arcade.draw_rectangle_filled(500, 80, 10, 80, (0, 0, 0))
+arcade.draw_rectangle_filled(480, 80, 10, 80, (0, 0, 0))
+arcade.draw_rectangle_filled(420, 80, 10, 80, (0, 0, 0))
+arcade.draw_rectangle_filled(400, 80, 10, 80, (0, 0, 0))
+arcade.draw_circle_filled(480, 105, 10, arcade.color.WHITE)
+arcade.draw_circle_filled(450, 110, 10, arcade.color.WHITE)
+arcade.draw_circle_filled(420, 100, 10, arcade.color.WHITE)
+arcade.draw_rectangle_filled(380, 110, 40, 10, (0, 0, 0))
 
 # Draw a tree
 arcade.draw_rectangle_filled(600, 100, 20, 100, arcade.color.BROWN)
